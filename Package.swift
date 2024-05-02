@@ -13,8 +13,8 @@ let package = Package(
     products: [
         .library(
             name: "SQLite",
-            targets: ["SQLite"],
-            type: .dynamic
+            type: .dynamic,
+            targets: ["SQLite"]
         )
     ],
     targets: [
